@@ -3,4 +3,4 @@ COPY . /usr/local/apache2/htdocs
 
 EXPOSE 80
 
-cmd["httpd-foreground"]
+CMD ["httpd-foreground"]
