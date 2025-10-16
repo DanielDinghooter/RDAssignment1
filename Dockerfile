@@ -1,2 +1,8 @@
-FROM httpd:2.4
-COPY . /usr/local/apache2/htdocs
+#lightweight nginx?
+FROM nginx:alpine
+COPY . /usr/local/nginx/html
+
+# expose port
+EXPOSE 80
+#cmd to run nginx
+CMD ["nginx", "-g", "daemon off;"]

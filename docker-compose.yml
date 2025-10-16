@@ -4,5 +4,6 @@ services:
     image: domdiej/rdassignment1
     build: .
     container_name: researchassignment1
+    restart: always
     ports: 
       - "80:80"
