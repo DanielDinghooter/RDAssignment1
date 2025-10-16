@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Docker Hub credentials ID stored in Jenkins
         DOCKERHUB_CREDENTIALS ='cybr-3120'
-        IMAGE_NAME ='domdiej/RDAssignment1'
+        IMAGE_NAME ='domdiej/rdassignment1'
     }
 
     stages {
