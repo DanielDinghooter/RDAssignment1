@@ -1,9 +1,8 @@
 version: "3.8"
 services: 
   RDAssignment1:
-    image: domdiej/RDAssignment1
+    image: domdiej/rdassignment1
     build: .
     container_name: ResearchAssignment1
     ports: 
       - "80:3000"
-      
